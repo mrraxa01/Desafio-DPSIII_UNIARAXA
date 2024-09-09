@@ -1,0 +1,20 @@
+{
+  "name": "convite-service",
+  "version": "1.0.0",
+  "description": "API desenvolvida para entrega Desafio DPSIII - Uniaraxá",
+  "main": "app.js",
+  "author": "Marcio Rodrigues",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  },
+  "scripts": {
+    "dev": "yarn nodemon ./src/app.js",
+    "start": "node src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,0 +1,20 @@
+trigger:
+  branches:
+    include:
+      - main
+
+
+variables:
+  - group: amigo-secreto-grp
+  - group: api-gateway-grp
+
+  
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: devops/devops_pipelines
+      ref: refs/heads/main
+
+jobs:        
+  - template: templates/generic-node-pipelines.yml@templates

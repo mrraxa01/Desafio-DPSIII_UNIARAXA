@@ -1,0 +1,20 @@
+{
+  "name": "lista-desejo-service",
+  "version": "1.0.0",
+  "description": "API desenvolvida para entrega do Desafio - DPSIII - Uniaraxá",
+  "main": "index.js",
+  "author": "Marcio Rodrigues",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "6.13.0"
+  },
+  "scripts": {
+    "dev": "yarn nodemon ./src/index.js",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
